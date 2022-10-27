@@ -13,6 +13,13 @@
         android:theme="@style/Theme.Pertemuan3_project"
         tools:targetApi="31">
         <activity
+            android:name=".splash"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".relative_layout"
             android:exported="false">
             <meta-data
